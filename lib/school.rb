@@ -18,6 +18,6 @@ class School
     @roster[stud_grade]
  end   
  def sort
-   @rostersort
+   @roster.values.sort.each {|el| }
   end 
 end  
