@@ -18,6 +18,9 @@ class School
     @roster[stud_grade]
  end   
  def sort
-   @roster.sort
+   new_hash = {}
+   @roster.collect do |k,v|
+     new_hash[k] = v.sort
+   end
   end 
 end  
