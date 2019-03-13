@@ -22,5 +22,7 @@ class School
    @roster.collect do |k,v|
      new_hash[k] = v.sort
    end
+   new_hash
   end 
+  
 end  
